@@ -94,31 +94,6 @@ ClassicEditor.defaultConfig = {
 			'mergeTableCells'
 		]
 	},
-	highlight: {
-		options: [
-			{
-				model: 'greenMarker',
-				class: 'pen-green',
-				title: 'Green marker',
-				color: 'rgb(25, 156, 25)',
-				type: 'pen'
-			},
-			{
-				model: 'yellowMarker',
-				class: 'pen-yellow',
-				title: 'Yellow marker',
-				color: '#cac407',
-				type: 'pen'
-			},
-			{
-				model: 'redPen',
-				class: 'pen-red',
-				title: 'Red pen',
-				color: 'hsl(343, 82%, 58%)',
-				type: 'pen'
-			}
-		]
-	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
 	language: 'en'
 };
